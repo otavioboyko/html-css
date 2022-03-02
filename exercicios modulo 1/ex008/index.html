@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html-ico.ico" type="image/x-icon">
+    <title>imagens,audios e videos</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+     <picture>
+         <source media="(max-width: 750px)" srcset="imagem/foto-p.png" type="image/png"> 
+         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+     </picture>
+    <h1>reproduzindo audio</h1>
+       <audio preload="metadata" src="midia/happy-mistake.mp3" controls autoplay></audio>
+       <!--mp3 wav ogg-->
+    <h1>videos</h1>
+    <p>os arquivos mais utilizados de video sao mp4,m4v,webmn e o ogv</p>
+    <video width="560" controls autoplay loop>
+        <source src="midia/video-flor.mp4" type="video/mp4">
+        <source src="midia/video-flor-mv.m4v" type="video/mp4">
+        <source src="midia/video-flor-webm.webm" type="video/webm">
+        <p>seu navegador nao tem compatibilidade</p>
+    </video>
+    <h2>inserindo videos do youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2iaPuUFIyMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
