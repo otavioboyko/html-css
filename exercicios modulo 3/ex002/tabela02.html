@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: rgb(255, 255, 0);
+            color: white;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <!--
+        anatomia para tabelas grandes
+        TABLE
+           THEAD
+             TR, TD, TH
+           TBODY
+             TD, TD, TH
+           TFOOT
+             TR, TD, TH
+    -->
+    <Table>
+        <thead>
+            <tr>
+                <th>estado</th>
+                <th>populaçao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>pandora</td>
+                <td class="num">49 919 049</td>
+            </tr>
+            <tr>
+                <td>pyrrha</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>deucalion</td>
+                <td class="num">74 873 943</td>
+            </tr>
+            <tr>
+                <td>secrope</td>
+                <td class="num">14 873 943</td>
+            </tr>
+            <tr>
+                <td>medusa</td>
+                <td class="num">11 433 957</td>
+            </tr>
+            <tr>
+                <td>acrisio</td>
+                <td class="num">11 377 957</td>
+            </tr>
+            <tr>
+                <td>danae</td>
+                <td class="num">9 557 071</td>
+            </tr>
+            <tr>
+                <td>perseu</td>
+                <td class="num">9 132 078</td>
+            </tr>
+            <tr>
+                <td>polidecto</td>
+                <td class="num">9 602 857</td>
+            </tr>
+            <tr>
+                <td>andromeda</td>
+                <td class="num">7 164 788</td>
+            </tr>
+            <tr>
+                <td>cassiopeia</td>
+                <td class="num">7 075 181</td>
+            </tr>
+            <tr>
+                <td>megapente</td>
+                <td class="num">7 018 354</td>
+            </tr>
+            <tr>
+                <td>glauco</td>
+                <td class="num">4 144 597</td>
+            </tr>
+            <tr>
+                <td>belerofonte</td>
+                <td class="num">4 018 650</td>
+            </tr>
+            <tr>
+                <td>proetus</td>
+                <td class="num">4 018 127</td>
+            </tr>
+            <tr>
+                <td>poliedos</td>
+                <td class="num">3 506 853</td>
+            </tr>
+            <tr>
+                <td>sisifo</td>
+                <td class="num">3 484 366</td>
+            </tr>
+            <tr>
+                <td>midas</td>
+                <td class="num">3 337 357</td>
+            </tr>
+            <tr>
+                <td>semele</td>
+                <td class="num">3 273 227</td>
+            </tr>
+            <tr>
+                <td>laio</td>
+                <td class="num">3 015 268</td>
+            </tr>
+            <tr>
+                <td>jocasta</td>
+                <td class="num">2 778 986</td>
+            </tr>
+            <tr>
+                <td>edipo</td>
+                <td class="num">2 298 696</td>
+            </tr>
+            <tr>
+                <td>polibo</td>
+                <td class="num">1 777 225</td>
+            </tr>
+            <tr>
+                <td>merope</td>
+                <td class="num">1 572 866</td>
+            </tr>
+            <tr>
+                <td>tiresias</td>
+                <td class="num">881 935</td>
+            </tr>
+            <tr>
+                <td>creonte</td>
+                <td class="num">845 731</td>
+            </tr>
+            <tr>
+                <td>antigona</td>
+                <td class="num">605 761</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total de habitantes</th>
+                <td class="num"><strong>210 147 125</strong></td>
+            </tr>
+        </tfoot>
+    </Table>
+</body>
+</html>
