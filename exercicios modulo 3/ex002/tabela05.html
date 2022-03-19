@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>otra tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: rgb(205, 127, 50);
+        }
+
+        .csexo {
+            background-color: rgb(240, 239, 223);
+        }
+
+        .cidade {
+            background-color: rgb(135, 260, 235);
+        }
+
+        .cprofissao {
+            background-color: rgb(184, 194, 169);
+        }
+    </style>
+</head>
+<body>
+    <h1>exercicio de tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>cadrasto</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissao</th>
+        </tr>
+        <tr>
+            <td>narciso</td>
+            <td>m</td>
+            <td>25</td>
+            <td>modelo</td>
+        </tr>
+        <tr>
+            <td>calisto</td>
+            <td>f</td>
+            <td>28</td>
+            <td>caçadora</td>
+        </tr>
+        <tr>
+            <td>licaao</td>
+            <td>m</td>
+            <td>40</td>
+            <td>prefeito</td>
+        </tr>
+        <tr>
+            <td>dafne</td>
+            <td>f</td>
+            <td>26</td>
+            <td>corredora</td>
+        </tr>
+        <tr>
+            <td>jacinto</td>
+            <td>m</td>
+            <td>20</td>
+            <td>nenhuma</td>
+        </tr>
+        <tr>
+            <td>orion</td>
+            <td>m</td>
+            <td>40</td>
+            <td>caçador</td>
+        </tr>
+    </table>
+</body>
+</html>
